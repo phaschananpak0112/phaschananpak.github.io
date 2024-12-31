@@ -306,9 +306,9 @@ background: #000;
 }
 
 .dot-1 { left: 0; }
-.dot-2 { left: 33.33%; }
+/* .dot-2 { left: 33.33%; } */
 .dot-3 { left: 66.66%; }
-.dot-4 { left: 100%; }
+/* .dot-4 { left: 100%; } */
 
 .education-grid-wrapper {
 overflow: hidden;
@@ -316,7 +316,7 @@ overflow: hidden;
 
 .education-grid {
 display: grid;
-grid-template-columns: repeat(4, 1fr);
+grid-template-columns: repeat(2, 1fr);
 gap: 30px;
 position: relative;
 transition: transform 0.3s ease;
@@ -391,7 +391,8 @@ height: 20px;
     align-items: center;
     justify-content: center;
     padding: 12px 24px;
-    background-color: #0066cc;
+    /* background-color: #0066cc; */
+    background-color: #157ed4;
     color: white;
     text-decoration: none;
     border-radius: 4px;
