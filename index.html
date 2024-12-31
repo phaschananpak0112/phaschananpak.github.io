@@ -32,7 +32,19 @@
                 <h1>Hello, so good to see you!</h1>
                 <h2 class="description">Product Owner | Agile Professional</h2>
                 <p class="description">I help small and medium-sized businesses grow their audience and brand recognition through social media.</p>
-                <a href="#contact" class="btn">Contact me</a>
+                
+                <div class="download-section">
+                    <button onclick="downloadCV()" class="download-button">
+                        <span class="icon">📄</span>
+                        Download CV
+                    </button>
+                    <div id="errorMessage" class="error-message">
+                        Unable to download CV. Please try again later.
+                    </div>
+                </div>
+                                
+                <!-- <a href="#contact" class="btn">Download CV</a> -->
+
             </div>
             <div class="right-section">
                 <img src="./img/profile.jpg" alt="Profile Image" style="max-width: 70%; height: auto;">
@@ -40,7 +52,7 @@
         </div>
     </section>
 
-    
+
     <section id="about">
         <div class="about-content">
             <div class="about-image">
@@ -58,13 +70,10 @@
                         <div class="skill-item">Analytics & Reporting</div>
                     </div>
                 </div>
-            </div> 
-            
-            
-
-            
+            </div>                         
         </div>       
     </section>
+
 
     <section id="education">
         <!-- #try step bar of education -->
@@ -198,9 +207,6 @@
         </div>
         
     </section>
-
-    
-
 
 
 </body>
